@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "npx webpack --config webpack.config.ts",
-    "dev": "npx webpack serve --config webpack.config.ts --open"
+    "dev": "npx webpack serve --config webpack.config.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,12 +15,15 @@
     "@types/node": "^20.12.7",
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.2",
+    "css-loader": "^7.1.1",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "style-loader": "^4.0.0"
   }
 }
