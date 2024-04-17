@@ -19,7 +19,15 @@ const config: webpack.Configuration = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.ts$/,
+        use: ['ts-loader'],
+        exclude: /node_modules/,
+      },
     ],
+  },
+  resolve: {
+    extensions: ['.ts', '.js'],
   },
   devServer: {
     static: {

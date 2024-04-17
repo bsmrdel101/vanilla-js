@@ -3,6 +3,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "target": "ESNext",
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "noEmit": false,
+    "moduleResolution": "node",
   }
 }

@@ -1,9 +1,10 @@
+import { Component } from "./library/Component";
 import "./styles/styles.scss";
 
 function main() {
-  const element = document.createElement('div');
-  element.innerHTML = 'Hello World!'
-  return element;
+  return Component(`
+    <h1>Hello World!</h1>
+  `);
 }
 
 document.body.appendChild(main());
